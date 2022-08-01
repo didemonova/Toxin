@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./regstyles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  />
-    <title>Toxin</title>
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Регистрация</title>
   </head>
   <body class="page">
     <div class="container">
@@ -25,8 +25,7 @@
           <ul class="navigation">
             <li><a href="#">О нас</a></li>
             <li class="services">
-              <a href="#">Услуги</a
-              ><span class="material-symbols-outlined"> expand_more </span>
+              <a href="#">Услуги</a><span class="material-symbols-outlined"> expand_more </span>
             </li>
             <li><a href="#">Вакансии</a></li>
             <li><a href="#">Новости</a></li>
@@ -43,35 +42,60 @@
       </header>
 
       <main class="main">
-        <div class="filters">
-          <p>Найдём номера под ваши пожелания</p>
-          <div class="date">
-            <p>ПРИБЫТИЕ<br /><input class="arrival" type="date" /></p>
-            <p>ВЫЕЗД<br /><input class="departure" type="date" /></p>
-          </div>
-          <div class="select">
-            <p>
-              ГОСТИ<br /><select name="guests" required="required" placeholder="Сколько гостей" >
-                
-                <option value="">Сколько гостей</option>
-                <option value="1">Один человек</option>
-                <option value="2">Два человека</option>
-                <option value="3">Три человека</option>
-                <option value="4">Четыре человека</option>
-              </select>
-            </p>
+        <div class="regform">
+          <h5>Регистрация аккаунта</h5>
+          <div class="name">
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Фамилия" />
           </div>
 
-          <div class="selection">
-            <button class="apply">ПОДОБРАТЬ НОМЕР</button>
+          <ul class="gender">
+            <li>
+              <input type="radio" name="s" id="m" />
+              <label for="m">Мужчина</label>
+              <div class="check"></div>
+            </li>
+
+            <li>
+              <input type="radio" name="s" id="f" />
+              <label for="f">Женщина</label>
+              <div class="check"><div class="inside"></div></div>
+            </li>
+          </ul>
+
+          <div class="dob">
+            <p>
+              <span>ДАТА РОЖДЕНИЯ</span> <br />
+              <input type="date" />
+            </p>
+          </div>
+          <div class="login">
+            <p>
+              <span>ДАННЫЕ ДЛЯ ВХОДА В СЕРВИС </span> <br />
+              <input type="email" placeholder="Email" /> <br />
+              <input type="password" placeholder="Пароль" />
+            </p>
+          </div>
+          <div class="checkbox">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+            <p>Получать спецпредложения</p>
+          </div>
+          <button class="button__reg">
+            <div class="button__reg__text">
+              <span class="reg__text"><p>ЗАРЕГИСТРИРОВАТЬСЯ</p></span>
+              <span class="material-symbols-outlined">arrow_forward</span>
+            </div>
+          </button>
+          <div class="account">
+            <p>Уже есть аккаунт на Toxin</p>
+            <button class="button__entry">ВОЙТИ</button>
           </div>
         </div>
-        <div class="text">
-          <p>
-            Лучшие номера для вашей работы,<br />отдыха и просто вдохновения
-          </p>
-        </div>
       </main>
+
       <footer>
         <div class="footer__menu">
           <div class="info">
@@ -114,7 +138,7 @@
               >
             </li>
             <li class="input-icon">
-              <input class="email" type="email" placeholder="Email" />
+              <input class="email" type="email" placeholder="Email"/>
               <span class="material-symbols-outlined">arrow_forward</span>
             </li>
           </ul>

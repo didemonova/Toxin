@@ -1,3 +1,6 @@
+@import url(./header.scss);
+@import url(./footer.scss);
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -8,80 +11,17 @@
   box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 140px;
-}
-
-.logo {
-  margin-top: 15px;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-around;
-  min-width: 380px;
-  padding-top: 26px;
-  font-weight: 400;
-}
-
-.navigation a {
-  color: rgba(31, 32, 65, 0.5);
-  text-decoration: none;
-}
-
-.button {
-  padding-top: 18px;
-  margin-left: 20px;
-  font-size: 0; //убрала текстовый узел
-}
-
-.entry {
-  background: #ffffff;
-  color: #bc9cff;
-  border: 1px solid #bc9cff;
-  width: 87px;
-  height: 34px;
-  border-radius: 22px;
-  margin-right: 20px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  
-  cursor: pointer;
-}
-
-.registration {
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-  width: 196px;
-  color: #ffffff;
-  border-radius: 22px;
-  height: 34px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-}
-
 .main {
   background-image: url(img/background.png);
-  // width: 1440px;
+  background-position: bottom;
   height: 830px;
-  margin-top: 26px;
+  // margin-top: 26px;
   vertical-align: bottom;
 }
 
 .filters {
   display: inline-block;
   max-width: 318px;
-  // max-height: 314px;
   padding: 0 30px 30px 30px;
   margin-top: 70px;
   margin-left: 140px;
@@ -103,7 +43,9 @@
   justify-content: space-between;
 }
 
+
 input {
+  font-family: "Montserrat";
   font-size: 14px;
   font-weight: 400;
   text-align: center;
@@ -153,93 +95,5 @@ select {
   margin: 320px 134px 18px 1009px;
   line-height: 24px;
   text-align: right;
-  
 }
 
-// .text p {
-//   padding: 0;
-//   margin-right: 134px;
-// }
-
-.footer__menu {
-  display: flex;
-}
-
-.info {
-  max-width: 260px;
-  margin: 100px 40px 140px 140px;
-}
-
-.column {
-  margin-top: 104px;
-  margin-bottom: 100px;
-  padding: 0;
-}
-
-.column a {
-  text-decoration: none;
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.column li {
-  margin-bottom: 20px;
-  list-style-type: none;
-}
-
-.column p {
-  font-weight: 700;
-  font-size: 12px;
-  color: #1F2041;
-  margin-bottom: 21px;
-  margin-top: 0;
-}
-
-.subscription {
-  margin-right: 140px;
-  margin-left: 51px;
-  max-width: 260px;
-  width: 100%;
-}
-
-.about-us {
-  margin-right: 92px;
-}
-
-.footer-nav {
-  margin-right: 57px;
-}
-
-.email {
-  max-width: 245px;
-  width: 100%;
-  background: #ffffff;
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  border-radius: 4px;
-  text-align: left;
-  padding-left: 15px;
-}
-
-hr{
-border: 1px solid rgba(31, 32, 65, 0.25);
-margin: 0;
-}
-
-.end {
-  display: flex;
-  justify-content: space-between ;
-  padding: 22px 140px;
-  
-}
-
-.end p {
-  max-height: 18px;
-  margin: 0;
-}
-
-.twitter{
-  margin-right: 20px;
-}
-
-.facebook{
-  margin-right: 20px;
-}

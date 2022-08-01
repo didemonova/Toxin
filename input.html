@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./input.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-  />
-    <title>Toxin</title>
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Вход</title>
   </head>
   <body class="page">
     <div class="container">
@@ -25,8 +25,7 @@
           <ul class="navigation">
             <li><a href="#">О нас</a></li>
             <li class="services">
-              <a href="#">Услуги</a
-              ><span class="material-symbols-outlined"> expand_more </span>
+              <a href="#">Услуги</a><span class="material-symbols-outlined"> expand_more </span>
             </li>
             <li><a href="#">Вакансии</a></li>
             <li><a href="#">Новости</a></li>
@@ -43,35 +42,25 @@
       </header>
 
       <main class="main">
-        <div class="filters">
-          <p>Найдём номера под ваши пожелания</p>
-          <div class="date">
-            <p>ПРИБЫТИЕ<br /><input class="arrival" type="date" /></p>
-            <p>ВЫЕЗД<br /><input class="departure" type="date" /></p>
+        <div class="input">
+          <p>Войти</p>
+          <div class="login">
+              <input type="email" placeholder="Email" /> <br />
+              <input type="password" placeholder="Пароль" />
           </div>
-          <div class="select">
-            <p>
-              ГОСТИ<br /><select name="guests" required="required" placeholder="Сколько гостей" >
-                
-                <option value="">Сколько гостей</option>
-                <option value="1">Один человек</option>
-                <option value="2">Два человека</option>
-                <option value="3">Три человека</option>
-                <option value="4">Четыре человека</option>
-              </select>
-            </p>
+          <button class="button__input">
+          <div class="input__entry">
+            <span class="entry__text"><p>ВОЙТИ</p></span>
+            <span class="material-symbols-outlined">arrow_forward</span>
           </div>
-
-          <div class="selection">
-            <button class="apply">ПОДОБРАТЬ НОМЕР</button>
-          </div>
+        </button>
+        <div class="account">
+          <p>Нет аккаунта на Toxin?</p>
+          <button class="button__create">СОЗДАТЬ</button>
         </div>
-        <div class="text">
-          <p>
-            Лучшие номера для вашей работы,<br />отдыха и просто вдохновения
-          </p>
         </div>
       </main>
+
       <footer>
         <div class="footer__menu">
           <div class="info">
@@ -113,10 +102,7 @@
                 >Получайте специальные<br />предложения и новости сервиса</a
               >
             </li>
-            <li class="input-icon">
-              <input class="email" type="email" placeholder="Email" />
-              <span class="material-symbols-outlined">arrow_forward</span>
-            </li>
+            <li><input class="email" type="email" placeholder="Email" /></li>
           </ul>
         </div>
         <hr />

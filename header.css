@@ -1,0 +1,119 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Montserrat";
+  margin: 0 auto;
+  color: rgba(31, 32, 65, 0.75);
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 140px 18px 140px;
+  -webkit-box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+          box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navigation {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  min-width: 380px;
+  max-height: 21px;
+  font-weight: 400;
+  margin-top: 26px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-right: 20px;
+  max-height: 18px;
+  list-style-type: none;
+}
+
+.services, .contracts {
+  margin-right: 0;
+}
+
+.services a {
+  vertical-align: top;
+}
+
+.navigation span {
+  max-height: 15px;
+  vertical-align: top;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.navigation a {
+  color: rgba(31, 32, 65, 0.5);
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.button {
+  margin-top: 18px;
+  font-size: 0;
+}
+
+.entry {
+  background: #ffffff;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  width: 87px;
+  height: 34px;
+  border-radius: 22px;
+  margin-right: 20px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.registration {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  width: 196px;
+  color: #ffffff;
+  border-radius: 22px;
+  height: 34px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}

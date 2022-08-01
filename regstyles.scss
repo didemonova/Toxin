@@ -1,0 +1,500 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  font-size: 14px;
+  font-family: "Montserrat";
+  margin: 0 auto;
+  color: rgba(31, 32, 65, 0.75);
+  box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
+}
+
+input {
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 140px;
+}
+
+.logo {
+  margin-top: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navigation {
+  display: inline;
+  min-width: 380px;
+  max-height: 21px;
+  font-weight: 400;
+  margin-top: 26px;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-right: 20px;
+  max-height: 18px;
+  
+}
+
+.services, .contracts {
+  margin-right: 0;
+}
+
+.services a{
+  vertical-align: top;
+}
+ 
+.navigation span {
+  max-height: 15px;
+  vertical-align: top;
+}
+
+.navigation a {
+  color: rgba(31, 32, 65, 0.5);
+  text-decoration: none;
+}
+
+.material-symbols-outlined {
+  cursor: pointer;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.button {
+  margin-top: 18px;
+  font-size: 0; //убрала текстовый узел
+}
+
+.entry {
+  background: #ffffff;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  width: 87px;
+  height: 34px;
+  border-radius: 22px;
+  margin-right: 20px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.registration {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  width: 196px;
+  color: #ffffff;
+  border-radius: 22px;
+  height: 34px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-image: url(img/regbackground.png);
+  background-position: bottom;
+  height: 683px;
+  margin-top: 15px;
+}
+
+.regform {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  height: 646px;
+  margin: 19px 0;
+  padding: 0 30px;
+  background-color: #ffffff;
+}
+
+.regform h5 {
+  font-weight: 700;
+  font-size: 24px;
+  margin: 40px 0px 20px 0px;
+  color: #1f2041;
+}
+
+.regform span {
+  font-weight: 700;
+  font-size: 12px;
+  color: #1f2041;
+}
+
+.name input {
+  width: 299px;
+  height: 38px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.gender {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 23px;
+}
+
+/////////радиокнопки//////////
+
+ul li {
+  color: rgba(31, 32, 65, 0.5);
+  display: block;
+  position: relative;
+  float: left;
+}
+
+ul li input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+ul li label {
+  display: block;
+  position: relative;
+  font-weight: 300;
+  font-size: 14px;
+  padding: 0px 20px 0px 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+ul li .check {
+  display: block;
+  position: absolute;
+  border: 1px solid rgba(31, 32, 65, 0.5);
+  border-radius: 100%;
+  height: 18px;
+  width: 18px;
+  top: 0px;
+}
+
+ul li .check::before {
+  display: block;
+  position: absolute;
+  content: "";
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  top: 3px;
+  left: 3px;
+}
+
+input[type="radio"]:checked ~ .check {
+  border: 1px solid linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+
+input[type="radio"]:checked ~ .check::before {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+
+input[type="radio"]:checked ~ label {
+  color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+}
+
+//////////////////////////////////////
+
+.dob {
+  margin-bottom: 20px;
+}
+
+.dob p {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.dob input {
+  width: 299px;
+  height: 38px;
+  padding-left: 15px;
+  color: rgba(31, 32, 65, 0.25);
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.login p {
+  margin: 0;
+}
+
+.login input {
+  width: 299px;
+  height: 38px;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.checkbox {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.checkbox p {
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+.switch {
+  position: relative;
+  display: flex;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input {
+  display: none;
+}
+
+/////////слайдер//////////
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 12px;
+  width: 12px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  background: rgba(31, 32, 65, 0.25);
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: white;
+  border: 1px solid #bc9cff;
+  border-radius: 10px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  border-radius: 10px;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+//////////////////////////////////
+
+.button__reg {
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  color: #ffffff;
+  // padding-top: 12px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 320px;
+  border-radius: 22px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.button__reg__text {
+  display:flex;
+  height: 24px;
+  // vertical-align: bottom;
+  
+}
+
+.button__reg span {
+  color: #ffffff;
+  // vertical-align: bottom;
+  
+  
+}
+
+.button__reg span:first-child {
+  margin-left: 70px;
+  vertical-align: bottom;
+  
+}
+
+.button__reg span:last-child {
+  font-size: 24px;
+  margin-left: 50px;
+
+  
+}
+
+.reg__text {
+  max-height: 15px;
+  margin-top: 5px;
+}
+
+.reg__text p{
+  margin: 0;
+}
+
+
+.account {
+  display: flex;
+  margin-top: 30px;
+}
+
+.account p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+}
+
+.button__entry {
+  width: 99px;
+  height: 44px;
+  padding: 12px 26px;
+  margin-left: 35px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  background: #ffffff;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  border-radius: 22px;
+
+  cursor: pointer;
+}
+
+.footer__menu {
+  display: inline-flex;
+}
+
+.info {
+  max-width: 260px;
+  width: 100%;
+  margin: 100px 40px 140px 140px;
+}
+
+.info img {
+  margin-bottom: 32px;
+  padding: 0 auto;
+}
+
+.info p {
+  margin: 0;
+}
+
+.column {
+  margin-top: 104px;
+  margin-bottom: 100px;
+  padding-left: 0;
+}
+
+.column a {
+  text-decoration: none;
+  color: rgba(31, 32, 65, 0.75);
+}
+
+.column li {
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+
+.column p {
+  margin-bottom: 21px;
+  font-weight: 700;
+  font-size: 12px;
+  color: #1f2041;
+  margin-bottom: 21px;
+  margin-top: 0;
+}
+
+.subscription {
+  margin-right: 140px;
+  margin-left: 51px;
+  max-width: 260px;
+  width: 100%;
+}
+
+.about-us {
+  margin-right: 92px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin-right: 57px;
+  max-width: 143px;
+  width: 100%;
+}
+
+.about-us {
+  max-width: 108px;
+}
+
+.email {
+  width: 243px;
+  height: 44px;
+  background: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  text-align: left;
+  padding: 0 0 0 15px;
+}
+
+hr {
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  margin: 0;
+}
+
+.end {
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 140px;
+}
+
+.end p {
+  max-height: 18px;
+  margin: 0;
+}
+
+.twitter {
+  margin-right: 20px;
+}
+
+.facebook {
+  margin-right: 20px;
+}

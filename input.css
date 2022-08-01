@@ -1,0 +1,115 @@
+@import url(./header.css);
+@import url(./footer.css);
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url(img/regbackground.png);
+  background-position: bottom;
+  height: 683px;
+  margin-top: 15px;
+}
+
+.input {
+  display: block;
+  height: 278px;
+  width: 320px;
+  background-color: #ffffff;
+  margin-top: 172px;
+  padding: 40px 30px;
+}
+
+.input p {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1f2041;
+  margin: 0 0 20px 0;
+}
+
+.login input {
+  width: 299px;
+  height: 38px;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: rgba(31, 32, 65, 0.25);
+}
+
+.button__input {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  width: 320px;
+  border-radius: 22px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.button__input span:first-child {
+  margin-left: 135px;
+  vertical-align: bottom;
+}
+
+.button__input span:last-child {
+  font-size: 24px;
+  margin-left: 100px;
+  color: #ffffff;
+}
+
+.input__entry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 24px;
+}
+
+.entry__text {
+  max-height: 15px;
+  margin-top: 5px;
+}
+
+.entry__text p {
+  font-family: "Montserrat";
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.account {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 30px;
+}
+
+.account p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  vertical-align: bottom;
+  margin: 13px 0;
+}
+
+.button__create {
+  width: 99px;
+  height: 44px;
+  padding: 12px 18px;
+  margin-left: 35px;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  background: #ffffff;
+  color: #bc9cff;
+  border: 2px solid #bc9cff;
+  border-radius: 22px;
+  cursor: pointer;
+}
