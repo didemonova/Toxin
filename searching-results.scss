@@ -193,17 +193,6 @@
   margin-left: 20px;
 }
 
-.lux {
-  position: absolute;
-  width: 41px;
-  height: 15px;
-  left: 783px;
-  top: 325px;
-  color: #bc9cff;
-  font-weight: 700;
-  font-size: 12px;
-}
-
 .price {
   font-weight: 700;
   font-size: 14px;
@@ -247,20 +236,16 @@
   align-items: center;
   margin-top: 40px;
   margin-bottom: 0;
-  
 }
 
 .pager li {
   list-style-type: none;
   margin-right: 25px;
-  
-  
 }
 
 .pager a {
   text-decoration: none;
   color: rgba(31, 32, 65, 0.5);
-  
 }
 
 .pager-first {
@@ -284,7 +269,6 @@
   border-radius: 22px;
   width: 40px;
   height: 40px;
-
 }
 
 .pager-last a {

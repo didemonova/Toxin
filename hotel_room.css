@@ -1,0 +1,361 @@
+@import url(./header.css);
+@import url(./footer.css);
+.photo-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.img3 {
+  margin-top: -1px;
+}
+
+.info-room {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 140px;
+}
+
+.info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 712px;
+}
+
+.info-block h4 {
+  font-weight: 700;
+  font-size: 19px;
+  color: #1f2041;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.room-details {
+  width: 280px;
+  height: 273px;
+  margin-right: 80px;
+}
+
+.element {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.img {
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.unit {
+  margin: 0;
+}
+
+.text {
+  line-height: 24px;
+}
+
+.hr {
+  border: 0.3px solid rgba(31, 32, 65, 0.25);
+  margin: 20px 0;
+}
+
+.room-impressions {
+  max-height: 273px;
+}
+
+.statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.grade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.grade span:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.room-reviews {
+  margin-top: 30px;
+}
+
+.room-reviews h4 {
+  margin: 0;
+}
+
+.client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-height: 48px;
+  margin-top: 23px;
+}
+
+.review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px;
+}
+
+.review p {
+  margin: 0;
+}
+
+.like {
+  margin-right: 14px;
+}
+
+.room-rules {
+  max-width: 292px;
+  margin-top: 30px;
+  margin-right: 98px;
+}
+
+.room-rules h4 {
+  margin-left: 20px;
+}
+
+.rules {
+  list-style-image: url("./file/marker.svg");
+  padding-left: 17px;
+  margin: 0;
+}
+
+.rules li {
+  margin-bottom: 10px;
+}
+
+.rules span {
+  margin-left: 3px;
+}
+
+.room-cancell {
+  max-width: 341px;
+  margin-top: 30px;
+  line-height: 24px;
+}
+
+.room-cancell h4 {
+  margin-bottom: 15px;
+}
+
+.room-cancell p {
+  margin: 0;
+}
+
+.room-card {
+  display: inline-block;
+  width: 320px;
+  height: 480px;
+  padding: 0 30px 30px 30px;
+  font-size: 24px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.card {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.number {
+  font-weight: 700;
+  font-size: 24px;
+  color: #1f2041;
+}
+
+.lux {
+  color: #bc9cff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 14px;
+  margin-left: 85px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.days {
+  font-size: 12px;
+  color: rgba(31, 32, 65, 0.5);
+}
+
+.date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.date p {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: #1f2041;
+}
+
+.select {
+  margin-top: 20px;
+}
+
+.select p {
+  color: #1f2041;
+}
+
+input {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: 144px;
+  height: 44px;
+  color: rgba(31, 32, 65, 0.75);
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.select {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+select {
+  width: 320px;
+  height: 44px;
+  padding: 13px;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgba(31, 32, 65, 0.75);
+  background-color: #ffffff;
+  border: 1px solid rgba(31, 32, 65, 0.25);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.calculation {
+  font-size: 14px;
+}
+
+.line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.icon {
+  margin-left: 5px;
+}
+
+.element__text {
+  width: 213px;
+  margin-right: 5px;
+}
+
+.total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.total__text {
+  font-size: 19px;
+  font-weight: 700;
+  color: #1f2041;
+}
+
+.dashed {
+  padding-top: 15px;
+}
+
+.hr-dashed {
+  width: 181px;
+  height: 0px;
+  border: none;
+  background-color: #ffffff;
+  border: 1px dashed rgba(31, 32, 65, 0.25);
+}
+
+.button__book {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bc9cff), to(#8ba4f9));
+  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+  color: #ffffff;
+  font-size: 12px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  width: 320px;
+  border-radius: 22px;
+  height: 44px;
+  border: none;
+  cursor: pointer;
+}
+
+.button__book__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 24px;
+}
+
+.button__book span {
+  color: #ffffff;
+}
+
+.button__book span:first-child {
+  margin-left: 100px;
+  vertical-align: bottom;
+}
+
+.button__book span:last-child {
+  font-size: 24px;
+  margin-left: 65px;
+}
+
+.book__text p {
+  max-height: 15px;
+  margin-top: 5px;
+}

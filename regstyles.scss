@@ -1,3 +1,7 @@
+@import url(./header.scss);
+
+@import url(./footer.scss);
+
 .container {
   max-width: 1440px;
   width: 100%;
@@ -18,99 +22,12 @@ input {
   font-size: 14px;
 }
 
-.header {
-  display: flex;
-  justify-content: space-between;
-  margin: 0 140px;
-}
-
-.logo {
-  margin-top: 15px;
-}
-
-.menu {
-  display: flex;
-  justify-content: space-around;
-}
-
-.navigation {
-  display: inline;
-  min-width: 380px;
-  max-height: 21px;
-  font-weight: 400;
-  margin-top: 26px;
-  margin-bottom: 0;
-  padding: 0;
-}
-
-.navigation li {
-  margin-right: 20px;
-  max-height: 18px;
-  
-}
-
-.services, .contracts {
-  margin-right: 0;
-}
-
-.services a{
-  vertical-align: top;
-}
- 
-.navigation span {
-  max-height: 15px;
-  vertical-align: top;
-}
-
-.navigation a {
-  color: rgba(31, 32, 65, 0.5);
-  text-decoration: none;
-}
-
-.material-symbols-outlined {
-  cursor: pointer;
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
-}
-
-.button {
-  margin-top: 18px;
-  font-size: 0; //убрала текстовый узел
-}
-
-.entry {
-  background: #ffffff;
-  color: #bc9cff;
-  border: 2px solid #bc9cff;
-  width: 87px;
-  height: 34px;
-  border-radius: 22px;
-  margin-right: 20px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.registration {
-  background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
-  width: 196px;
-  color: #ffffff;
-  border-radius: 22px;
-  height: 34px;
-  font-size: 12px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-}
-
 .main {
   display: flex;
   justify-content: center;
   background-image: url(img/regbackground.png);
   background-position: bottom;
   height: 683px;
-  margin-top: 15px;
 }
 
 .regform {
@@ -150,8 +67,6 @@ input {
   margin-top: 0;
   margin-bottom: 23px;
 }
-
-/////////радиокнопки//////////
 
 ul li {
   color: rgba(31, 32, 65, 0.5);
@@ -207,8 +122,6 @@ input[type="radio"]:checked ~ .check::before {
 input[type="radio"]:checked ~ label {
   color: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
 }
-
-//////////////////////////////////////
 
 .dob {
   margin-bottom: 20px;
@@ -269,8 +182,6 @@ input[type="radio"]:checked ~ label {
   display: none;
 }
 
-/////////слайдер//////////
-
 .slider {
   position: absolute;
   cursor: pointer;
@@ -317,12 +228,9 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-//////////////////////////////////
-
 .button__reg {
   background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
   color: #ffffff;
-  // padding-top: 12px;
   font-size: 12px;
   font-family: "Montserrat";
   font-weight: 700;
@@ -334,30 +242,22 @@ input:checked + .slider:before {
 }
 
 .button__reg__text {
-  display:flex;
+  display: flex;
   height: 24px;
-  // vertical-align: bottom;
-  
 }
 
 .button__reg span {
   color: #ffffff;
-  // vertical-align: bottom;
-  
-  
 }
 
 .button__reg span:first-child {
   margin-left: 70px;
   vertical-align: bottom;
-  
 }
 
 .button__reg span:last-child {
   font-size: 24px;
   margin-left: 50px;
-
-  
 }
 
 .reg__text {
@@ -365,10 +265,9 @@ input:checked + .slider:before {
   margin-top: 5px;
 }
 
-.reg__text p{
+.reg__text p {
   margin: 0;
 }
-
 
 .account {
   display: flex;
@@ -396,105 +295,4 @@ input:checked + .slider:before {
   border-radius: 22px;
 
   cursor: pointer;
-}
-
-.footer__menu {
-  display: inline-flex;
-}
-
-.info {
-  max-width: 260px;
-  width: 100%;
-  margin: 100px 40px 140px 140px;
-}
-
-.info img {
-  margin-bottom: 32px;
-  padding: 0 auto;
-}
-
-.info p {
-  margin: 0;
-}
-
-.column {
-  margin-top: 104px;
-  margin-bottom: 100px;
-  padding-left: 0;
-}
-
-.column a {
-  text-decoration: none;
-  color: rgba(31, 32, 65, 0.75);
-}
-
-.column li {
-  margin-bottom: 20px;
-  list-style-type: none;
-}
-
-.column p {
-  margin-bottom: 21px;
-  font-weight: 700;
-  font-size: 12px;
-  color: #1f2041;
-  margin-bottom: 21px;
-  margin-top: 0;
-}
-
-.subscription {
-  margin-right: 140px;
-  margin-left: 51px;
-  max-width: 260px;
-  width: 100%;
-}
-
-.about-us {
-  margin-right: 92px;
-}
-
-.footer-nav {
-  display: flex;
-  flex-direction: column;
-  margin-right: 57px;
-  max-width: 143px;
-  width: 100%;
-}
-
-.about-us {
-  max-width: 108px;
-}
-
-.email {
-  width: 243px;
-  height: 44px;
-  background: #ffffff;
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  border-radius: 4px;
-  text-align: left;
-  padding: 0 0 0 15px;
-}
-
-hr {
-  border: 1px solid rgba(31, 32, 65, 0.25);
-  margin: 0;
-}
-
-.end {
-  display: flex;
-  justify-content: space-between;
-  padding: 22px 140px;
-}
-
-.end p {
-  max-height: 18px;
-  margin: 0;
-}
-
-.twitter {
-  margin-right: 20px;
-}
-
-.facebook {
-  margin-right: 20px;
 }

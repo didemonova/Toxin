@@ -8,7 +8,6 @@
   background-image: url(img/regbackground.png);
   background-position: bottom;
   height: 683px;
-  margin-top: 15px;
 }
 
 .input {
@@ -58,7 +57,7 @@
 }
 
 .input__entry {
-  display:flex;
+  display: flex;
   height: 24px;
 }
 
@@ -79,7 +78,6 @@
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-  
 }
 
 .account p {
