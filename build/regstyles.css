@@ -1,5 +1,5 @@
-@import url(./header.scss);
-@import url(./footer.scss);
+@import url(../src/style/header.scss);
+@import url(../src/style/footer.scss);
 .container {
   max-width: 1440px;
   width: 100%;
@@ -28,7 +28,7 @@ input {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(img/regbackground.png);
+  background-image: url(../img/regbackground.png);
   background-position: bottom;
   height: 683px;
 }

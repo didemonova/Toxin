@@ -1,5 +1,5 @@
-@import url(./header.scss);
-@import url(./footer.scss);
+@import url(../src/style/header.scss);
+@import url(../src/style/footer.scss);
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -109,7 +109,7 @@
 .check__input:checked + .check__box {
   width: 20px;
   height: 20px;
-  background-image: url(./file/checkbox.svg);
+  background-image: url(../file/checkbox.svg);
   border: none;
 }
 

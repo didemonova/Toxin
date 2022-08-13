@@ -1,5 +1,5 @@
-@import url(./header.css);
-@import url(./footer.css);
+@import url(header.css);
+@import url(footer.css);
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -7,7 +7,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: url(img/regbackground.png);
+  background-image: url(../img/regbackground.png);
   background-position: bottom;
   height: 683px;
 }

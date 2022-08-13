@@ -1,5 +1,5 @@
-@import url(./header.css);
-@import url(./footer.css);
+@import url(header.css);
+@import url(footer.css);
 .photo-room {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -146,7 +146,7 @@
 }
 
 .rules {
-  list-style-image: url("./file/marker.svg");
+  list-style-image: url("../file/marker.svg");
   padding-left: 17px;
   margin: 0;
 }
